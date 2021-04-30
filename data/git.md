@@ -9,34 +9,34 @@
 
 Command                                            | Description
 ---------------------------------------------------|:---------------------------------------------------------------------------:
-`git config --global user.name "[nom]"`            | Définit le nom que vous voulez associer à toutes vos opérations de commit
+`git config --global user.name "[nom]"`            | Définit le nom que vous voulez associer à toutes vos opérations de commit  |
 ---------------------------------------------------|:---------------------------------------------------------------------------:
-`git config --global user.email "[adresse email]"` | Définit l'email que vous voulez associer à toutes vos opérations de commit
+`git config --global user.email "[adresse email]"` | Définit l'email que vous voulez associer à toutes vos opérations de commit |
 ---------------------------------------------------|:---------------------------------------------------------------------------:
-`git config --global color.ui auto`                | Active la colorisation de la sortie en ligne de commande
+`git config --global color.ui auto`                | Active la colorisation de la sortie en ligne de commande                   |
 
 ### Create repository
 
 Command                    | Description
----------------------------|:--------------------------------------------------------:
-`git init [nom-du-projet]` | Crée un dépôt local à partir du nom spécifié
----------------------------|:--------------------------------------------------------:
-`git clone [url]`          | Télécharge un projet et tout son historique de versions
+---------------------------|----------------------------------------------------------
+`git init [nom-du-projet]` | Crée un dépôt local à partir du nom spécifié            |
+---------------------------|----------------------------------------------------------
+`git clone [url]`          | Télécharge un projet et tout son historique de versions |
 
 ### Perform changements
 
 Command                                | Description
----------------------------------------|:------------------------------------------------------------------------------------------:
+---------------------------------------|-----------------------------------------------------
 `git init [nom-du-projet]`             | Crée un dépôt local à partir du nom spécifié
----------------------------------------|:------------------------------------------------------------------------------------------:
+---------------------------------------|-----------------------------------------------------
 `git status`                           | Liste tous les nouveaux fichiers et les fichiers modifiés à commiter
----------------------------------------|:------------------------------------------------------------------------------------------:
+---------------------------------------|-----------------------------------------------------
 `git diff`                             | Montre les modifications de fichier qui ne sont pas encore indexées
----------------------------------------|:------------------------------------------------------------------------------------------:
+---------------------------------------|-----------------------------------------------------
 `git add [fichier]`                    | Ajoute un instantané du fichier, en préparation pour le suivi de version
----------------------------------------|:------------------------------------------------------------------------------------------:
+---------------------------------------|-----------------------------------------------------
 `git add -A`                           | Ajoute tous les fichiers, en préparation pour le suivi de version
----------------------------------------|:------------------------------------------------------------------------------------------:
+---------------------------------------|-----------------------------------------------------
 `git commit -m "[message descriptif]"` | Enregistre des instantanés de fichiers de façon permanente dans l'historique des versions
 
 ### Group changements
